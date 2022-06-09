@@ -1,0 +1,58 @@
+*{
+    font-family: 'Macondo', cursive;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("songs/1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#myProgressBar{
+    width: 28vw;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    width: 30%;
+    margin-top: 57vh;
+    background-color: white;
+    opacity: 0.5;
+    width: 50vw;
+    border-radius: 34px;
+}
+.iconItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+.icons i{
+    cursor: pointer;
+}
+.bottom img{
+    height: 10%;
+    width : 10%;
+}
+.range{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gif{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 8px;
+    justify-content: space-between;
+}
+#gif{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
